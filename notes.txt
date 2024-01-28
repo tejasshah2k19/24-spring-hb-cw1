@@ -1,0 +1,16 @@
+spring web
+spring data jpa 
+mysql driver 
+ 
+-----------------------------------------
+hibernate -> query 
+
+application.properties 
+
+
+
+create table -> 
+
+table -> class -> entity -> @Entity
+
+class -> variable -> table column    
