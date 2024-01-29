@@ -14,3 +14,13 @@ create table ->
 table -> class -> entity -> @Entity
 
 class -> variable -> table column    
+
+
+
+dao -> add update delete -> manual query 
+
+now we need to create repository -> interface -> 
+			database method 
+			
+
+
