@@ -23,4 +23,56 @@ now we need to create repository -> interface ->
 			database method 
 			
 
+----------------------------------------------------------
+
+1:1
+1:M
+M:1
+M:M
+
+
+------------------------------------------------------
+
+User
+	userId
+	firstName
+	email 
+	password 
+	-->roleId:fk<-- 
+Role
+	roleId
+	roleName   
+
+
+
+1 user has 1 role 
+rock -- admin {unique} 
+
+ManyToOne 
+users -> role 
+
+1 role has M users 
+
+---------------------------------------------------------
+user api -> signup -> fn ln em pwd role -> insert 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

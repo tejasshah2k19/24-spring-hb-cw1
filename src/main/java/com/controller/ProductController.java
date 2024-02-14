@@ -38,4 +38,8 @@ public class ProductController {
 	
 	//    /product/create   /product/all 
 	
+	
+
+
+
 }
